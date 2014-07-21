@@ -1,1 +1,1 @@
-web: ./go-resize-proxy
+web: go-resize-proxy
