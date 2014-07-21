@@ -11,14 +11,6 @@ import (
     _ "image/gif"
 )
 
-var (
-    /* formats = []string{ */
-    /*     "png", */
-    /*     "jpg", */
-    /*     "gif", */
-    /* } */
-)
-
 func TestResize(t *testing.T) {
     for _,format := range formats {
         file, err := os.Open("images/gopher."+format)
