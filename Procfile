@@ -1,1 +1,1 @@
-web: go-image-proxy
+web: ./go-resize-proxy
