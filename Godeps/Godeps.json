@@ -1,0 +1,10 @@
+{
+	"ImportPath": "github.com/blloon/go-resize-proxy",
+	"GoVersion": "go1.1.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/nfnt/resize",
+			"Rev": "bdfbbead1345d809ac818ffd1a66ace065aaf821"
+		}
+	]
+}
