@@ -13,14 +13,6 @@ import (
 )
 
 func Download(url string) ( *image.Image, error ) {
-    img, err := loadHttp(url)
-    if err != nil {
-        return nil, err
-    }
-    return img, nil
-}
-
-func loadHttp(url string) ( *image.Image, error ) {
     resp, err := http.Get(url)
     if err != nil {
         return nil, err
